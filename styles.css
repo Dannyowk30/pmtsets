@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 25px;
+    background-color: azure;
+}
+.title{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(151, 174, 184);
+    font-size: 20px;
+    margin: 1px auto;
+    height: 2px;
+}
+.parent-container{
+    max-width: 500px;
+    width: 100%;
+    height: 610px;
+    color: white;
+    background-color: rgb(137, 119, 86);
+    border-radius: 40px;
+    margin: 10px auto;
+    padding: 20px;
+    border: 10px;
+}
+img{
+    max-width: 450px;
+    width: 100%;
+    height: 30vh;
+    border-radius: 40px;
+    padding: auto 10px;
+    margin: 10px;
+}
+.form-container{
+    background-color: rgb(66, 53, 53);
+    border-radius: 30px;
+    margin: 20px 5px;
+    padding: 20px;
+    height: 150px;
+    text-align: center;
+}
+.tyder{
+    width: 100%;
+}
+.submit{
+    margin: 15px auto;
+}
+.smooth{
+    background-color: rgb(66, 53, 53);
+    margin: 20px 5px;
+    padding: 20px;
+    height: 150px;
+    border-radius: 30px;
+}
+.rhymes{
+    background-color: brown;
+    border-radius: 20px;
+}
+.Todos{
+    display:flex;
+    justify-content: space-between;
+
+}
