@@ -19,7 +19,8 @@ body{
 .parent-container{
     max-width: 500px;
     width: 100%;
-    height: 610px;
+    min-height:610px;
+    height: auto;
     color: white;
     background-color: rgb(137, 119, 86);
     border-radius: 40px;
@@ -59,6 +60,9 @@ img{
 .rhymes{
     background-color: brown;
     border-radius: 20px;
+}   
+.rhymes:hover{
+    background-color: aliceblue;
 }
 .Todos{
     display:flex;
